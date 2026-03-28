@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>404 - Not Found</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #3b403d, #1f2221);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 700px;
+            background: #111;
+            color: #ddd;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 0 25px rgba(0,0,0,0.6);
+        }
+
+        .error-code {
+            font-size: 90px;
+            font-weight: bold;
+            color: #aaa;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            margin: 10px 0;
+            color: #fff;
+        }
+
+        p {
+            color: #bbb;
+        }
+
+        em {
+            color: #888;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background-color: #454b48;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #2f3331;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="error-code">404</div>
+
+    <h2>Page not found</h2>
+    <p>The page you are looking for doesn't exist or has been moved.</p>
+
+    <p><em>Maybe the file was deleted... or never existed 👀</em></p>
+
+    <a href="/" class="btn">Go back to main page</a>
+</div>
+
+</body>
+</html>
